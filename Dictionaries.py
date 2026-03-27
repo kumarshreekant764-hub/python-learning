@@ -44,3 +44,9 @@ for key, value in person.items():
 # name: shree
 # age: 21
 # email: shree@example.com 
+
+
+
+# Get all keys and values
+print(person.keys())    # Output: dict_keys(['name', 'age', 'email'])
+print(person.values())  # Output: dict_values(['shree', 21, 'shree@example.com'])
